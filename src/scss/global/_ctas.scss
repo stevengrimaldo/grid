@@ -12,7 +12,8 @@
     margin-left: 20px;
     position: relative;
     transform: translate3d(0, 0, 0);
-    @extend %GothamBold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 
     .line {
       position: absolute;

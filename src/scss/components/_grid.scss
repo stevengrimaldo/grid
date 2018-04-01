@@ -1,5 +1,4 @@
-@import '../global/config',
-  '../global/typography';
+@import '../global/config';
 
 .grid {
   align-items: stretch;
@@ -160,32 +159,38 @@
       h2 {
         font-size: 50px;
         line-height: 60px;
-        @extend %TiemposHeadlineBold;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
       }
       h3 {
         font-size: 40px;
         line-height: 50px;
-        @extend %TiemposHeadlineBold;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
       }
       h4 {
         font-size: 30px;
         line-height: 40px;
-        @extend %TiemposHeadlineBold;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
       }
       h5 {
         font-size: 20px;
         line-height: 30px;
-        @extend %GothamBold;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
       }
       h6 {
         font-size: 10px;
         line-height: 20px;
-        @extend %GothamBold;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
       }
       p {
         font-size: 16px;
         line-height: 26px;
-        @extend %TiemposTextRegular;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
       }
     }
     &__close {

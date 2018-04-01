@@ -2,14 +2,9 @@
 @import './global/mixins';
 @import './global/easing';
 @import './global/grid';
-@import './global/typography';
 @import './global/ctas';
 
-// Myriad
-@include font-face('Tiempos Text', $font-path + '/TiemposText_400', 400); // regular
-@include font-face('Tiempos Headline', $font-path + '/TiemposHeadline_700', 700); // bold
-@include font-face('Apercu', $font-path + '/Apercu_400', 400); // mono
-@include font-face('Gotham', $font-path + '/Gotham_700', 700); // bold
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 @import './global/reset';
 @import './global/layout';
